@@ -72,7 +72,7 @@
 				var local_ip = window.localStorage.getItem("local_ip");
 				var api_path = window.localStorage.getItem("api_path");
 				var store_no = window.localStorage.getItem("store_no");
-				$http.get("http://" + local_ip + "/" + api_path + "/api/product/" + $scope.product + "/" + store_no)
+				$http.get("http://" + local_ip + "/" + api_path + "/api/serie/" + $scope.product + "/" + store_no)
 					.success(function(data, status, headers, config) {
 						if (data != null) {
 							$scope.price = "Precio : S/." + data[0].RetailPrice;
