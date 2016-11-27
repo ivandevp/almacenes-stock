@@ -20,19 +20,17 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
-    <gap:plugin name="org.apache.cordova.console" />
-    <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.device-motion" />
-    <gap:plugin name="org.apache.cordova.device-orientation" />
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <!-- <gap:plugin name="org.apache.cordova.file-transfer" /> -->
-    <!-- <gap:plugin name="org.apache.cordova.inappbrowser" /> -->
-    <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="org.apache.cordova.vibration" />
-    <plugin name="cordova-plugin-whitelist" version="1" />
+    <plugin name="cordova-plugin-console" source ="npm"/>
+    <plugin name="cordova-plugin-contacts" source ="npm"/>
+    <plugin name="cordova-plugin-device" source ="npm"/>
+    <plugin name="cordova-plugin-device-motion" source ="npm"/>
+    <plugin name="cordova-plugin-device-orientation" source ="npm"/>
+    <plugin name="cordova-plugin-dialogs" source ="npm"/>
+    <plugin name="cordova-plugin-media" source ="npm"/>
+    <plugin name="cordova-plugin-network-information" source ="npm"/>
+    <plugin name="cordova-plugin-splashscreen" source ="npm"/>
+    <plugin name="cordova-plugin-vibration" source ="npm"/>
+    <plugin name="cordova-plugin-whitelist" source="npm" source ="npm"/>
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/logo-36-ldpi.jpg" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/logo-48-mdpi.jpg" />
